@@ -1,6 +1,6 @@
 import React from "react";
 
-import Header from "./components/header";
+import Header from "./components/Header";
 import Feedback_list from "./components/Feedback_list";
 
 import Feedbackstats from "./components/Feedbackstats";
