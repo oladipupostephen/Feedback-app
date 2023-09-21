@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./shared/card";
+import Card from "./data/Card";
 import Button from "./shared/Button";
 import RatingSelect from "./RatingSelect";
 import { useState, useEffect } from "react";
@@ -39,7 +39,7 @@ function FeedbackForm() {
         text,
         rating,
       };
-   if (EditFeedback.edit === true) {
+      if (EditFeedback.edit === true) {
         UpdateFeedback(EditFeedback.item.id, newfeedback);
       } else {
         addfeedback(newfeedback);
