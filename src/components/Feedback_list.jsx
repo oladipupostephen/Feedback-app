@@ -1,6 +1,5 @@
 import React from "react";
 import Feedback_item from "./Feedback_item";
-import Card from "./shared/card";
 import { useContext } from "react";
 import feedbackcontext from '../context/FeedbackContext'
 function Feedback_list() {
